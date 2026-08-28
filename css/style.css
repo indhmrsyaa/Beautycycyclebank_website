@@ -1,0 +1,102 @@
+nav{
+    float: right;
+    width: 100%;
+    margin-bottom: 40px;
+}
+nav ul {
+    background: hsl(229, 76%, 69%);
+    padding: 0 0px;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    font-family: ‘helvetica’, arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+nav ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+ 
+nav ul li {
+    float: left;
+}
+ 
+nav ul li:hover {
+    background-color: hsl(229, 76%, 69%);
+ 
+}
+ 
+nav ul li a {
+ 
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+ 
+}
+ 
+nav ul li a:hover{
+    
+    color: #fff;
+
+ 
+}
+ 
+nav ul ul {
+ 
+    display: none;
+    background: hsl(229, 76%, 69%);
+    padding: 7;
+    position: absolute;
+    top: 90%;
+    max-width: 200px;
+    width: auto;
+ 
+}
+ 
+nav ul ul li {
+ 
+    float: right;
+    border-bottom: 4px solid rgba(230, 154, 154, 0.2);
+    position: relative;
+ 
+}
+ 
+nav ul li:hover > ul {
+ 
+    display: block;
+    text-size-adjust: relative;
+    text-align: justify;
+ 
+}
+ 
+nav ul ul li a {
+ 
+    padding: 10px 20px;
+    color: #fff;
+ 
+}
+ 
+
+ 
+nav ul ul ul {
+ 
+    position: absolute;
+    right: 100%;
+    top:0;
+    width: 200px;
+ 
+}
+nav center ul{
+    width: -moz-fit-content;
+    width: -webkite-fit-content;
+    width: fit-content;
+}
+.one-line{
+    white-space: nowrap;
+    overflow: hidden;
+}
