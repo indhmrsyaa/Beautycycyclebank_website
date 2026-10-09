@@ -185,19 +185,19 @@ Add screenshots of your actual website to showcase its interface and functionali
 
 ### Homepage
 
-![BeautyCycleBank Homepage](screenshoot-web-page/homepage.png)
+![BeautyCycleBank Homepage](web%20page/homepage.png)
 
 ### Login Page
 
-![BeautyCycleBank Waste Deposit](screenshoot-web-page/login.png)
+![BeautyCycleBank Waste Deposit](web%20page/login.png)
 
 ### User Interface
 
-![BeautyCycleBank Dashboard](screenshoot-web-page/user_interface.png)
+![BeautyCycleBank Dashboard](web%20page/user_interface.png)
 
 ### Admin Interface Dashboard
 
-![BeautyCycleBank Dashboard](screenshoot-web-page/admin_interface.png)
+![BeautyCycleBank Dashboard](web%20page/admin_interface.png)
 
 ---
 
