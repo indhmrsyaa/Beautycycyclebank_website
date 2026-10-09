@@ -193,11 +193,11 @@ Add screenshots of your actual website to showcase its interface and functionali
 
 ### User Interface
 
-![BeautyCycleBank Dashboard](web%20page/user_interface.png)
+![BeautyCycleBank Dashboard](web%20page/user.png)
 
-### Admin Interface Dashboard
+### Admin Interface 
 
-![BeautyCycleBank Dashboard](web%20page/admin_interface.png)
+![BeautyCycleBank Dashboard](web%20page/admin.png)
 
 ---
 
