@@ -128,7 +128,12 @@ http://localhost/phpmyadmin
 
 Create a database using the name expected by the application.
 
-If the repository includes an SQL file, import it into the database through phpMyAdmin.
+Select the database, then import the SQL file provided in the repository:
+
+```text
+Database/beautycyclebank.sql
+```
+Click Import, choose the beautycyclebank.sql file, and click Import or Go to execute the SQL file and create the required database tables.
 
 ### 5. Configure the Database Connection
 
@@ -140,10 +145,10 @@ Example configuration:
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "your_database_name";
+$database = "beautycyclebank";
 ```
 
-Replace `your_database_name` with the actual database name used by the application.
+If your local MySQL configuration uses different credentials or a different database name, update the settings accordingly.
 
 ### 6. Run the Website
 
@@ -196,8 +201,6 @@ Add screenshots of your actual website to showcase its interface and functionali
 ### Admin Interface Dashboard
 
 ![BeautyCycleBank Dashboard](screenshoot-web-page/admin_interface.png)
-
-> Replace the example screenshot paths with actual screenshots from your project. Remove any section that does not correspond to a page in your application.
 
 ---
 
