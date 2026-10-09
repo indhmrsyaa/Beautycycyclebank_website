@@ -27,16 +27,16 @@ The BeautyCycleBank website is designed to support online waste deposit activiti
   Introduces the BeautyCycleBank platform and its main services.
 
 - 👤 **User Registration and Login**  
-  Allows users to access the platform through user authentication, if implemented.
-
+  Allows users to access the platform through user authentication.
+  
 - 📦 **Online Waste Deposit**  
-  Supports submitting waste deposit information through the website, if implemented.
+  Supports submitting waste deposit information through the website.
 
 - 📋 **Deposit Information Management**  
-  Organizes waste deposit-related information within the system, if implemented.
+  Organizes waste deposit-related information within the system.
 
 - 🔐 **User Authentication**  
-  Supports access to features based on user login status, if implemented.
+  Supports access to features based on user login status.
 
 ---
 
@@ -227,20 +227,6 @@ Through this project, the following web development concepts were explored:
 - Database management using phpMyAdmin
 - Local server configuration using XAMPP
 - Version control using Git and GitHub
-
----
-
-## 🔮 Future Improvements
-
-Potential improvements for future versions include:
-
-- Improving the user interface and user experience.
-- Enhancing the online waste deposit process.
-- Providing more detailed information about waste categories.
-- Improving input validation and application security.
-- Optimizing the website for mobile devices.
-- Adding deposit history and status tracking, if relevant to the application.
-- Deploying the website to an online hosting environment.
 
 ---
 
