@@ -167,7 +167,7 @@ Database administration can be performed through phpMyAdmin:
 
 ### ERD Database
 
-![BeautyCycleBank Homepage](database/ERD.png)
+![BeautyCycleBank Homepage](Database/ERD.png)
 
 ```text
 http://localhost/phpmyadmin
