@@ -1,14 +1,16 @@
-# 🌸 BeautyCycleBank Website
+# ♻️ BeautyCycleBank Website
 
-**BeautyCycleBank** is a web-based application developed to provide a digital platform for beauty product management and services. The website is designed with a user-friendly interface and supports dynamic data management through PHP and MySQL.
+**BeautyCycleBank** is a web-based application designed to facilitate online waste deposit activities and support waste management through a digital platform. The website aims to provide users with a convenient way to access waste deposit services and encourage more organized waste management practices.
 
-This project was developed as part of a web development project and is intended to demonstrate the implementation of a dynamic website using a PHP backend and MySQL database.
+This project demonstrates the implementation of a dynamic website using PHP and MySQL, focusing on digital waste management services.
 
 ---
 
 ## 📌 Project Overview
 
-BeautyCycleBank is a website that provides information and services related to beauty products. The system combines a web interface with a database to manage and display dynamic information.
+BeautyCycleBank is an online waste deposit platform that aims to make waste collection and deposit activities more accessible through a website.
+
+The system provides a digital interface for waste deposit-related activities, helping users access information and interact with the services provided by the platform.
 
 The project was developed using **PHP, MySQL, HTML, CSS, and JavaScript** and can be run locally using **XAMPP**.
 
@@ -16,30 +18,25 @@ The project was developed using **PHP, MySQL, HTML, CSS, and JavaScript** and ca
 
 ## ✨ Features
 
-The BeautyCycleBank website includes several features, such as:
+The BeautyCycleBank website is designed to support online waste deposit activities and waste management services. Update this list to match the functionality implemented in the application.
+
+- ♻️ **Waste Management Information**  
+  Provides information related to waste management and waste deposit services.
 
 - 🏠 **Homepage**  
-  Provides an overview of the BeautyCycleBank website and its main content.
+  Introduces the BeautyCycleBank platform and its main services.
 
-- 👤 **User Management**  
-  Supports user registration and login functionality.
+- 👤 **User Registration and Login**  
+  Allows users to access the platform through user authentication, if implemented.
 
-- 💄 **Beauty Product Information**  
-  Displays information related to beauty products.
+- 📦 **Online Waste Deposit**  
+  Supports submitting waste deposit information through the website, if implemented.
 
-- 🛍️ **Product Management**  
-  Provides functionality for managing product-related data.
+- 📋 **Deposit Information Management**  
+  Organizes waste deposit-related information within the system, if implemented.
 
-- 📋 **Data Management**  
-  Uses a MySQL database to store and manage website data.
-
-- 🔐 **Authentication**  
-  Provides login functionality for accessing features that require authentication.
-
-- 📱 **Responsive Interface**  
-  Designed to provide a comfortable experience across different screen sizes.
-
-> *Note: The features above can be adjusted according to the final functionality implemented in the current version of the project.*
+- 🔐 **User Authentication**  
+  Supports access to features based on user login status, if implemented.
 
 ---
 
@@ -60,11 +57,10 @@ The BeautyCycleBank website includes several features, such as:
 
 ## 📂 Project Structure
 
-The project contains the main website files, backend logic, styling, scripts, and database-related components.
+The project contains PHP files and supporting resources used to build the website, manage application logic, and display its interface.
 
 ```text
 Beautycycyclebank_website/
-│
 ├── *.php
 ├── css/
 ├── js/
@@ -74,7 +70,7 @@ Beautycycyclebank_website/
 └── README.md
 ```
 
-> The exact folder structure may vary depending on the current version of the project.
+> The structure above is illustrative. Adjust it according to the actual files and folders in the repository.
 
 ---
 
@@ -86,7 +82,7 @@ Before running this project, make sure the following software is installed:
 - PHP
 - MySQL
 - phpMyAdmin
-- Web browser
+- A web browser
 - Git (optional, if cloning the repository)
 
 ---
@@ -95,60 +91,50 @@ Before running this project, make sure the following software is installed:
 
 ### 1. Clone the Repository
 
-Clone this repository into your local machine:
+Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/indhmrsyaa/Beautycycyclebank_website.git
 ```
 
-Or download the repository as a ZIP file from GitHub.
-
----
+Alternatively, download the repository as a ZIP file from GitHub.
 
 ### 2. Move the Project to XAMPP
 
 Move the project folder into the XAMPP `htdocs` directory.
 
-For example:
+Example:
 
 ```text
 C:\xampp\htdocs\Beautycycyclebank_website
 ```
 
----
-
 ### 3. Start XAMPP
 
-Open the **XAMPP Control Panel** and start:
+Open the **XAMPP Control Panel** and start the following services:
 
 - Apache
 - MySQL
 
-Both services need to be running before accessing the website.
+These services are required to run the PHP application and connect to the MySQL database.
 
----
+### 4. Set Up the Database
 
-### 4. Setup the Database
-
-Open phpMyAdmin through:
+Open phpMyAdmin in your browser:
 
 ```text
 http://localhost/phpmyadmin
 ```
 
-Create a new database according to the database configuration used by the project.
+Create a database using the name expected by the application.
 
-If the repository contains an SQL/database file, import that file into the newly created database using phpMyAdmin.
+If the repository includes an SQL file, import it into the database through phpMyAdmin.
 
----
+### 5. Configure the Database Connection
 
-### 5. Configure Database Connection
+Locate the PHP file responsible for connecting to the database and configure the connection according to your local environment.
 
-Check the PHP file responsible for the database connection.
-
-Update the database configuration according to your local MySQL setup.
-
-A typical configuration looks like:
+Example configuration:
 
 ```php
 $host = "localhost";
@@ -157,53 +143,53 @@ $password = "";
 $database = "your_database_name";
 ```
 
-Make sure the database name matches the database that was created in phpMyAdmin.
-
----
+Replace `your_database_name` with the actual database name used by the application.
 
 ### 6. Run the Website
 
-After Apache and MySQL are running, open the website through:
+After starting Apache and MySQL, open the following URL in your browser:
 
 ```text
 http://localhost/Beautycycyclebank_website/
 ```
 
-The website should now be accessible through your local browser.
+The application should be accessible locally, provided the database and configuration have been set up correctly.
 
 ---
 
 ## 🗄️ Database
 
-BeautyCycleBank uses **MySQL** as its database management system.
+BeautyCycleBank uses **MySQL** to store and manage application data.
 
-The database is used to store and manage dynamic information required by the website.
+The database supports the dynamic functionality of the website according to the data structures implemented in the application.
 
-Database management can be performed using:
+Database administration can be performed through phpMyAdmin:
 
 ```text
 http://localhost/phpmyadmin
 ```
 
-Make sure the database configuration in the PHP files matches your local MySQL configuration.
+Make sure the database configuration in the PHP files matches your local environment.
 
 ---
 
 ## 🖥️ Website Preview
 
+Add screenshots of your actual website to showcase its interface and functionality.
+
 ### Homepage
 
 ![BeautyCycleBank Homepage](screenshots/homepage.png)
 
-### Login Page
+### Waste Deposit Page
 
-![BeautyCycleBank Login](screenshots/login.png)
+![BeautyCycleBank Waste Deposit](screenshots/waste-deposit.png)
 
-### Product Page
+### User Dashboard
 
-![BeautyCycleBank Product](screenshots/product.png)
+![BeautyCycleBank Dashboard](screenshots/dashboard.png)
 
-> Add your actual website screenshots to a `screenshots/` folder in the repository and update the filenames above.
+> Replace the example screenshot paths with actual screenshots from your project. Remove any section that does not correspond to a page in your application.
 
 ---
 
@@ -211,50 +197,49 @@ Make sure the database configuration in the PHP files matches your local MySQL c
 
 The main objectives of developing BeautyCycleBank are:
 
-- To implement a dynamic website using PHP.
-- To implement database integration using MySQL.
-- To develop a functional web-based application.
-- To implement user authentication.
+- To develop a web-based platform for online waste deposit activities.
+- To apply PHP for server-side web development.
+- To integrate a website with a MySQL database.
+- To provide a digital interface for waste management-related services.
 - To practice frontend and backend web development.
-- To demonstrate the integration between a web interface and a relational database.
+- To explore how digital technology can support more accessible waste management services.
 
 ---
 
 ## 📚 Learning Outcomes
 
-Through this project, several web development concepts were implemented, including:
+Through this project, the following web development concepts were explored:
 
 - PHP programming
-- CRUD operations
 - MySQL database integration
-- User authentication
 - HTML and CSS implementation
 - JavaScript interaction
-- Local server configuration using XAMPP
+- Dynamic website development
+- User authentication, if implemented
 - Database management using phpMyAdmin
+- Local server configuration using XAMPP
 - Version control using Git and GitHub
 
 ---
 
 ## 🔮 Future Improvements
 
-Some potential improvements for future versions include:
+Potential improvements for future versions include:
 
 - Improving the user interface and user experience.
-- Adding more advanced product filtering and search functionality.
-- Improving security and input validation.
-- Adding additional user account features.
-- Implementing online deployment.
+- Enhancing the online waste deposit process.
+- Providing more detailed information about waste categories.
+- Improving input validation and application security.
 - Optimizing the website for mobile devices.
-- Improving database structure and performance.
+- Adding deposit history and status tracking, if relevant to the application.
+- Deploying the website to an online hosting environment.
 
 ---
 
 ## 👩‍💻 Author
 
-**Indah Marsya**
+**Indah Marsya Fitadea**
 
-GitHub:  
-[https://github.com/indhmrsyaa](https://github.com/indhmrsyaa)
+GitHub: [@indhmrsyaa](https://github.com/indhmrsyaa)
 
 ---
