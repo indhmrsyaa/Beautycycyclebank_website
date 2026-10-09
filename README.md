@@ -164,19 +164,16 @@ The application should be accessible locally, provided the database and configur
 
 ## 🗄️ Database
 
-BeautyCycleBank uses **MySQL** to store and manage application data.
+BeautyCycleBank uses MySQL as its database management system to store and manage application data.
 
-The database supports the dynamic functionality of the website according to the data structures implemented in the application.
-
-Database administration can be performed through phpMyAdmin:
+The database structure is provided in the Database/beautycyclebank.sql file, which can be imported into phpMyAdmin during project setup.
 
 ### ERD Database
 
+The Entity Relationship Diagram (ERD) illustrates the database structure and the relationships between tables used in the BeautyCycleBank website.
+
 ![BeautyCycleBank Homepage](Database/ERD.png)
 
-```text
-http://localhost/phpmyadmin
-```
 
 Make sure the database configuration in the PHP files matches your local environment.
 
