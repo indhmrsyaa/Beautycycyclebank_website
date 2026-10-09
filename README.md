@@ -165,6 +165,10 @@ The database supports the dynamic functionality of the website according to the 
 
 Database administration can be performed through phpMyAdmin:
 
+### ERD Database
+
+![BeautyCycleBank Homepage](database/ERD.png)
+
 ```text
 http://localhost/phpmyadmin
 ```
@@ -179,15 +183,19 @@ Add screenshots of your actual website to showcase its interface and functionali
 
 ### Homepage
 
-![BeautyCycleBank Homepage](screenshots/homepage.png)
+![BeautyCycleBank Homepage](screenshoot-web-page/homepage.png)
 
-### Waste Deposit Page
+### Login Page
 
-![BeautyCycleBank Waste Deposit](screenshots/waste-deposit.png)
+![BeautyCycleBank Waste Deposit](screenshoot-web-page/login.png)
 
-### User Dashboard
+### User Interface
 
-![BeautyCycleBank Dashboard](screenshots/dashboard.png)
+![BeautyCycleBank Dashboard](screenshoot-web-page/user_interface.png)
+
+### Admin Interface Dashboard
+
+![BeautyCycleBank Dashboard](screenshoot-web-page/admin_interface.png)
 
 > Replace the example screenshot paths with actual screenshots from your project. Remove any section that does not correspond to a page in your application.
 
